@@ -24,10 +24,11 @@ footer {
 }
 
 #companyLogo {
-    width: 150px;
+    width: 15px;
     height: auto;
     margin: 0 auto;
     display: block;
+    align-content: left;
 }
 
 /* Responsive Design */
