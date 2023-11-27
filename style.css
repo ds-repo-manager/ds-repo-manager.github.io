@@ -23,6 +23,13 @@ footer {
     margin-top: 20px;
 }
 
+#companyLogo {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
     body {
