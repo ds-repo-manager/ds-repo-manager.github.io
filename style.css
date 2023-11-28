@@ -53,8 +53,39 @@ header {
     font-size: 24px;
     background: none;
     border: none;
-    color: white;
+    color: orange;
     cursor: pointer;
+}
+
+#mobileMenu {
+    display: block;
+    position: fixed;
+    top: 3px;
+    border-color: orange;
+    right: -100%;
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    color: orange;
+    z-index: 1500;
+    transition: right 0.5s;
+}
+
+.mobileMenuVisible {
+    right: 0;
+}
+
+#mobileMenu ul {
+    list-style-type: none;
+    padding: 20px;
+    text-align: left;
+}
+
+#mobileMenu ul li a {
+    color: orange;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
 }
 
 
