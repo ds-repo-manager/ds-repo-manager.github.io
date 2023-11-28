@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: 25px;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
     color: white;
     position: fixed;
     top: 0;
-    height: 10vh;
+    height: 12vh;
     width: 100%;
     z-index: 1000;
 }
@@ -107,17 +108,25 @@ section {
 }
 
 #companyLogo {
-    width: 180px;
+    width: 220px;
     height: inherit;
     float: left;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+    #companyLogo {
+        width: 200px;
+        height: inherit;
+    }
     #navbar ul {
         display: none;
     }
 
     #menuToggle {
         display: inline-block;
+    }
+
+    body {
+        font-size: 25px;
     }
 }
