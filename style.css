@@ -21,6 +21,7 @@ header {
     height: 12vh;
     width: 100%;
     z-index: 1000;
+    border-bottom: purple solid 2px;
 }
 
 #navbar {
@@ -60,28 +61,28 @@ header {
 #mobileMenu {
     display: none;
     position: fixed;
-    top: 3px;
+    top: 0;
     right: 0;
     width: 40%;
     height: 60%;
     background-color: grey;
-    color: orange;
-    z-index: 1500;
+    z-index: 99999;
+    overflow-y: scroll;
 }
 
 #mobileMenu ul {
-    list-style-type:circle;
-    padding: 20px;
+    list-style-type: none;
+    display: block;
+    /* padding: 20px; */
     text-align: left;
 }
 
 #mobileMenu ul li a {
     color: orange;
     display: block;
-    padding: 10px;
-    text-decoration:wavy;
+    /* padding: 10px; */
+    text-decoration: none;
 }
-
 
 header nav ul {
     list-style-type: none;
@@ -111,6 +112,7 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 1000;
+    border-top: green solid 2px;
 }
 
 h1, h2 {
@@ -133,23 +135,23 @@ section {
 }
 
 #companyLogo {
-    width: 220px;
-    height: inherit;
+    width: 11vh;
+    height: 11vh;
     float: left;
 }
 
 @media (max-width: 600px) {
     #companyLogo {
-        width: 200px;
-        height: inherit;
+        width: 11vh;
+        height: 11vh;
     }
-    #navbar ul {
+    /* #navbar ul {
         display: none;
     }
 
     #menuToggle {
         display: inline-block;
-    }
+    } */
 
     body {
         font-size: 25px;
